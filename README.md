@@ -1,8 +1,9 @@
-# web-dev-starter
+# M7.2 Lab CSS Layout
 
-This is a starter project for web development with no frameworks and minimal
-dependencies. It is intended to be a starting point for web development projects
-that are written in plain HTML, CSS, and JavaScript.
+The purpose of this project was to create a better layout for a website.
+The HTML is not meant to be editted at all, we're only supposed to alter
+the css file. We're supposed to use Flexbox, Grid, Floating, and/or 
+Positioning techniques within the css to alter the website.
 
 ## Getting Started
 
