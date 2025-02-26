@@ -14,8 +14,13 @@ img {
   font-size: 200%;
   padding: 50px 20px;
   margin: 0 auto;
-  max-width: 980px;
   text-align: center;
+  background-image: linear-gradient(
+    blue 10%,
+    red 60%
+  );
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .grid {
@@ -37,13 +42,18 @@ nav ul {
   padding: 0;
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 nav a {
   color: #fff;
   text-decoration: none;
   padding: .5em 1em;
+}
+
+nav a:hover {
+  color: yellow;
 }
 
 .photos {
@@ -59,4 +69,8 @@ nav a {
     width: 200px;
     float: left;
     margin-right: 15px;
+}
+
+img:hover {
+  border: black 1px solid;
 }
